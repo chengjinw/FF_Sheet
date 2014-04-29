@@ -1,4 +1,1 @@
-<?php
-phpinfo();
-echo '123';
-echo 'aaaa';
+News for you
