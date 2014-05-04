@@ -8,9 +8,10 @@ class UserInfo extends ServiceBase
     public function test()
     {
         /**
-         * @uses \User\Service\Report
+         * @var \User\Service\Report
          */
         $s = $this->ext('User_Report')->op();
-        echo $s;
+        $t = \User\Module\User::instance()->getUserInfo();
+        echo $s . '-' . $t;
     }
 }
