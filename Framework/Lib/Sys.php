@@ -4,7 +4,7 @@ namespace Core\Lib;
 /**
  * Provides common methods for getting event system information and inspectings.
  *
- * @author Su Chao<suchaoabc@163.com>
+ * @author
  */
 class Sys {
     /**
