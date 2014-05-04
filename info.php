@@ -1,1 +1,3 @@
-3123123News for you
+<?php 
+phpinfo();
+
